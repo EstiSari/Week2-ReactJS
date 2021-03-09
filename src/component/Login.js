@@ -8,13 +8,13 @@ const Login = () => {
             <form>
                 <div className='container'>
                 <h3>Tugas Pertemuan ke 3</h3>
-                <label>Username</label>
-                <input type = 'text' name='username' id='username' className='username'></input>
+                <label for='us'>Username</label>
+                <input type = 'text' name='username' id='username' className='username' placeholder='Masukan Username'></input>
                 </div>
                 <br></br>
                 <div>
-                    <label>Password</label>
-                    <input type='password' name='password' id='password' className='password'></input>
+                    <label for='ps'>Password</label>
+                    <input type='password' name='password' id='password' className='password' placeholder='Masukan Password'></input>
                 </div>
                 <div>
                 <button type="button" className=" btn-success">Login</button>

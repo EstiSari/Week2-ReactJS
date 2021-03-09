@@ -8,8 +8,10 @@ h1,h3{
     text-align: center;
 }
 
-label{
+label {
     font-style: inherit;
+    
+
 }
 input.username,input.password{
     padding: 5px;
